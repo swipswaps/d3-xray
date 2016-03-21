@@ -20,7 +20,7 @@
       trigger = true;
       data = d3.select(this).datum();
       // if there's no bound data, exit
-      if (typeof data == 'undefined') {
+      if (typeof data === 'undefined') {
         return;
       }
       // compile a node identifier by looking
@@ -31,7 +31,7 @@
         'class': '.'
       };
       // type of node
-      tag = this.tagName;
+      tag = node.tagName;
       // CSS selectors
       selectors = Object.keys(attributes)
         .map(function(attribute) {
@@ -47,10 +47,10 @@
         }).join('');
       // identifier string
       identifier = tag + selectors;
-        // log results to console
-        if (console && typeof console.log === 'function') {
-          console.log(identifier, data);
-        }
+      // log results to console
+      if (console && typeof console.log === 'function') {
+        console.log(identifier, data);
+      }
     })
     .on('mouseleave', function() {
       // log a line break in between mouse actions
