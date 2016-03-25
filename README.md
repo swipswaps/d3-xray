@@ -2,7 +2,7 @@
 
 View the data that powers projects built with [D3.js](http://d3js.org) by simply mousing over them.
 
-[!demo](https://cloud.githubusercontent.com/assets/3488572/13891649/cb81dbf2-ed28-11e5-8b16-b44d4a685033.gif)
+![demo](https://cloud.githubusercontent.com/assets/3488572/13891649/cb81dbf2-ed28-11e5-8b16-b44d4a685033.gif)
 
 # Usage
 
